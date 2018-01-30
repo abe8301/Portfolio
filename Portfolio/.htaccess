@@ -1,4 +1,4 @@
-### PROTECT FILES ###
+### PROTECT FILES###
 <FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
 Order Allow,Deny
 Deny from all
@@ -6,7 +6,7 @@ Deny from all
 
 RewriteEngine on
 RewriteRule zatrudnij-programiste-webowego index.html
-RewriteRule kim-jestem kimjestem.html
-RewriteRule oferta-tworzenie-stron-www oferta.html
-RewriteRule cv-programista-php-javascript cv.html
-RewriteRule kontakt-programista-php kontakt.html
+RewriteRule kim-jestem whoAmI.html
+RewriteRule oferta-tworzenie-stron-www whatImOffering.html
+RewriteRule cv-programista-javascript cv.html
+RewriteRule kontakt-programista-js contact.html
